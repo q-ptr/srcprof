@@ -1,6 +1,6 @@
 ///                                 __ 
 ///   ___ _ __ ___ _ __  _ __ ___  / _|
-///  / __| '__/ __| '_ \| '__/ _ \| |_   srcprof - invasive c++ profiler 
+///  / __| '__/ __| '_ \| '__/ _ \| |_   srcprof - invasive cpu profiler 
 ///  \__ \ | | (__| |_) | | | (_) |  _|  --------------------------------
 ///  |___/_|  \___| .__/|_|  \___/|_|    https://github.com/q-ptr/srcprof
 ///               |_|    
@@ -19,7 +19,7 @@ namespace qptr::srcprof
 {
 
 static inline const std::string           VERSION_NAME          = "q-ptr.srcprof";
-static inline const std::string           VERSION_DESCRIPTION   = "invasive c++ profiler";
+static inline const std::string           VERSION_DESCRIPTION   = "invasive cpu profiler";
 static inline const std::string           VERSION_URL           = "https://github.com/q-ptr/srcprof";
 
 static inline constexpr uint8_t           VERSION_MAJOR         = 0;
